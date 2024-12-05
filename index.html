@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Cara de Barro - Mountain Bike</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#2196F3">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+    <header class="header">
+        <h1>Cara de Barro</h1>
+    </header>
+
+    <main class="container">
+        <div class="grid-container">
+            <!-- Blog -->
+            <div class="grid-item ripple" onclick="navigateTo('blog')">
+                <span class="material-icons icon">article</span>
+                <h3>Blog</h3>
+                <p>Dicas e Novidades</p>
+            </div>
+
+            <!-- Loja Treinos -->
+            <div class="grid-item ripple" onclick="navigateTo('loja-treinos')">
+                <span class="material-icons icon">fitness_center</span>
+                <h3>Treinos</h3>
+                <p>Programas</p>
+            </div>
+
+            <!-- Calculadoras -->
+            <div class="grid-item ripple" onclick="navigateTo('calculadoras')">
+                <span class="material-icons icon">calculate</span>
+                <h3>Calculadoras</h3>
+                <p>Bikefit e mais</p>
+            </div>
+
+            <!-- Loja Roupas -->
+            <div class="grid-item ripple" onclick="navigateTo('loja-roupas')">
+                <span class="material-icons icon">shopping_bag</span>
+                <h3>Loja</h3>
+                <p>Roupas MTB</p>
+            </div>
+
+            <!-- YouTube -->
+            <div class="grid-item ripple" onclick="navigateTo('youtube')">
+                <span class="material-icons icon">play_circle</span>
+                <h3>YouTube</h3>
+                <p>Vídeos e Dicas</p>
+            </div>
+
+            <!-- Documentários -->
+            <div class="grid-item ripple" onclick="navigateTo('documentarios')">
+                <span class="material-icons icon">movie</span>
+                <h3>Documentários</h3>
+                <p>Histórias MTB</p>
+            </div>
+
+            <!-- Calendário -->
+            <div class="grid-item ripple" onclick="navigateTo('calendario')">
+                <span class="material-icons icon">event</span>
+                <h3>Eventos</h3>
+                <p>Calendário MTB</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
